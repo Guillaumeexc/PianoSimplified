@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="excoffier.guillaume.pianosimplified.MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="15">
+
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playC"/>
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:onClick="playCbis"/>
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/background_light"
+            android:onClick="playD"/>
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:onClick="playDbis"/>
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playE"/>
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playF"/>
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:onClick="playFbis"/>
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/background_light"
+            android:onClick="playG"/>
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:onClick="playGbis"/>
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/background_light"
+            android:onClick="playA"/>
+
+        <Button
+            android:id="@+id/button18"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:onClick="playAbis"/>
+
+        <Button
+            android:id="@+id/button19"
+            style="@style/KeyStyle_haut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playB"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+
+        <Button
+            android:id="@+id/c_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/background_light"
+            android:onClick="playC"/>
+
+        <Button
+            android:id="@+id/d_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playD"/>
+
+        <Button
+            android:id="@+id/e_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:background="@android:color/background_light"
+            android:onClick="playE"/>
+
+        <Button
+            android:id="@+id/f_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/background_light"
+            android:onClick="playF"/>
+
+        <Button
+            android:id="@+id/g_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/background_light"
+            android:onClick="playG"/>
+
+        <Button
+            android:id="@+id/b_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playA"/>
+
+        <Button
+            android:id="@+id/a_key"
+            style="@style/KeyStyle_bas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:onClick="playB"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
